@@ -9,7 +9,7 @@ spec:
       repo: https://github.com/fosnj9092bs/Hello-World.git
       sourceType: git
       dir: /
-    version: 1.0.1
+    version: 1.0.2
     actuationTool:
       flavor: Terraform
       version: ">= 1.3"
