@@ -16,5 +16,5 @@ data "external" "probe" {
 }
 
 output "probe" {
-  value = data.external.probe.result
+  value = jsonencode(data.external.probe.result)
 }
